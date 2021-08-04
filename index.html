@@ -1,39 +1,92 @@
-<table style="text-align: left; width: 100%;" border="0" cellpadding="5" cellspacing="5">
-  <tbody>
-    <tr align="center">
-      <td style="vertical-align: top; background-color: rgb(51, 102, 255);"><big style="color: white;"><big><big><big><span style="font-family: Calibri;">Nic Theobald<br>
-      </span></big></big></big></big> </td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top;"><span style="text-decoration: underline;"></span>
-      <table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto; background-color: rgb(204, 204, 204);" border="2" cellpadding="0" cellspacing="0">
-        <tbody>
-          <tr>
-            <td style="width: 20%; text-align: center; vertical-align: middle; background-color: rgb(204, 204, 204);"><a href="about.html">About Me</a><br>
-            </td>
-            <td style="text-align: center;"><a href="projects.html"><span style="text-decoration: underline;">My Projects</span></a><br>
-            </td>
-            <td style="text-align: center;">Stuff<br>
-            </td>
-            <td style="text-align: center;">Stuff<br>
-            </td>
-            <td style="text-align: center;">Stuff<br>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <span style="text-decoration: underline;"></span></td>
-    </tr>
-    <tr>
-      <td style="vertical-align: top;">
-      <table style="text-align: left; width: 100%; height: 100%;" border="2" cellpadding="5" cellspacing="0">
-        <tbody>
-          <tr>
-            <td style="vertical-align: top;"><br></td>
-          </tr>
-        </tbody>
-      </table>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="Pizza.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poorly Written Webpages Sold Here</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #58668b;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #76b4bd;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Nic Theobald</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+      <li>Design Projects</li>
+      <li>Programming Projects</li>
+      <li>3D Printing</li>
+	  <li>Electronics Projects</li>
+    </ul>
+  </div>
+
+  <div class="col-9">
+    <h1 style="font-size:14pt">Hello friend/colleague/employer,</h1>
+    <p>You've found my poorly written webpage!</p>
+	<p>Here you will find some information about myself, the projects I'm interested in, and what I have to offer.</p>
+	<p>This site is supposed to provide a less focused view on all of my projects. Here I will show the thought process behind my ideas and decisions -- even the ones I didn't finish.</p>
+	<p>Is this technically a blog?</p>
+	<p>Sincerely, Nic</p>
+  </div>
+</div>
+
+</body>
+</html>
